@@ -1,0 +1,52 @@
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .red-text {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .btn-green, .btn-red {
+    padding: 10px 15px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  
+  .btn-green {
+    background-color: #4CAF50;
+  }
+  
+  .btn-red {
+    background-color: #f44336;
+    margin-left: 20px;
+  }
+  
+  .btn-green:disabled, .btn-red:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  

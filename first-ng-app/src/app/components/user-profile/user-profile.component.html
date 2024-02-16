@@ -1,0 +1,31 @@
+<!-- <h1>this is user profile</h1>
+<h4>Name - {{name | uppercase }} Status - {{status}} salary - {{salary | currency:"INR"}}</h4>
+<h2>{{phoneno | contryCode}}</h2>
+<button [disabled]="isBtnDisabled">click me</button>
+
+<h1>input value - {{inputVal}}</h1>
+ <input type="text" [value]="inputVal" (input)="onChange($event)"> 
+<input type="text" [(ngModel)]="inputVal" >
+
+<div>
+    @for(user of users;track user.name){
+        @if(user.salary > 10000){
+            <h4>Name - {{user.name}} Status - {{user.isSingle?"single":"Coder"}} salary - {{user.salary}}</h4>
+        }@else{
+            <h4>Name - {{user.name}} Status - {{user.isSingle?"single":"Coder"}} salary - hidden</h4>
+        }
+        
+    }
+</div>
+<hr/>
+<div *ngFor="let user of users">
+     <h4 *ngIf="user.salary > 10000;else elseBlock">Name - {{user.name}} Status - {{user.isSingle?"single":"Coder"}} salary - {{user.salary}}</h4>
+     <ng-template #elseBlock>
+        <h4>Name - {{user.name}} Status - {{user.isSingle?"single":"Coder"}} salary - hidden</h4>
+     </ng-template>
+</div> -->
+
+
+
+<h1 #myheading>Name - {{name()}} Status - {{isSingle?"single":"Coder"}} salary- {{salary}}</h1>
+<button (click)="sendData()">Send data</button>

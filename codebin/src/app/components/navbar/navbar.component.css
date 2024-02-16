@@ -1,0 +1,36 @@
+/* Apply styles to the navigation bar */
+div {
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.logout{
+    color: red;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li a.active {
+    font-weight: 700;
+}

@@ -1,0 +1,14 @@
+ <h1>hello from html file</h1>
+
+<app-user-profile
+  *ngFor="let u of users"
+  [userName]="u.name" 
+  [isSingle]="u.isSingle" 
+  [salary]="u.salary"
+  (myEvent)="recevedData($event)"
+  ></app-user-profile>
+
+  <button (click)="clear()">clear users</button> 
+
+<app-a></app-a>
+<app-b1></app-b1>

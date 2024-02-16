@@ -1,0 +1,46 @@
+/* Apply basic styling to the form container */
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the input fields */
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the error messages */
+  .red-text {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Style the Create button */
+  button {
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  textarea{
+    background: #000d53;
+    color: white;
+  }
+  /* Change button color on hover */
+  button:hover {
+    background-color: #45a049;
+  }
+  

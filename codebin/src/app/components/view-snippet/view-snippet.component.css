@@ -1,0 +1,22 @@
+/* code-snippet.component.css */
+
+div {
+    /* max-width: 600px; */
+    margin: 10px 20px;
+    padding: 10px;
+  }
+  
+  h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  pre {
+    white-space: pre-wrap; /* Preserve white space, but allow wrapping */
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+  }
+  

@@ -1,0 +1,18 @@
+
+<div>
+    <nav>
+        <h2><a routerLink="/">CodeBin</a></h2>
+        <ul>
+            <li><a  routerLink="/create" routerLinkActive="active">Create Bin</a></li>
+            @if(authService.isAuthenticated()){
+                <li (click)="authService.logout()">Logout</li>
+            }@else{
+                <li><a  routerLink="/login" routerLinkActive="active">Login</a></li>
+                <li><a  routerLink="/signup" routerLinkActive="active">Signup</a></li>
+            }
+            <li><a  routerLink="/about" routerLinkActive="active">About</a></li>
+            <li><a  routerLink="/demo" routerLinkActive="active">Deffer View Demo</a></li>
+        </ul>
+    </nav>
+    <hr />
+</div>

@@ -1,0 +1,18 @@
+
+ul {
+    list-style: none;
+}
+
+ul li{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li:hover{
+    cursor: pointer;
+}
